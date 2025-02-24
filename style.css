@@ -7,11 +7,15 @@ body{
 .animal-cards{
     display: inline-block;
     width: 300px;
+    height: 100%;
     margin: 20px;
     padding: 10px;
     background-color: #fff;
     border: 2px solid #ccc;
     border-radius: 10px;
+}
+.cards{
+    height: max-content;
 }
 img{
     width: 100%;
